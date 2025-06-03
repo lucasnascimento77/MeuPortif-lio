@@ -1,0 +1,47 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  scroll-behavior: smooth;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+}
+
+#inicio img {
+  border: 5px solid #fff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+form input, form textarea {
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
+
+#parceiros img {
+  max-width: 100px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+#parceiros img:hover {
+  transform: scale(1.1);
+}
